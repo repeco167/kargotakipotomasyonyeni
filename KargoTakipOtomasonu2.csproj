@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CB0EEF98-EC31-45ED-AB15-E9EB6540C067}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KargoTakipOtomasonu2</RootNamespace>
+    <AssemblyName>KargoTakipOtomasonu2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ANASAYFA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ANASAYFA.Designer.cs">
+      <DependentUpon>ANASAYFA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kargoekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kargoekle.Designer.cs">
+      <DependentUpon>kargoekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kargogörüntüle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kargogörüntüle.Designer.cs">
+      <DependentUpon>kargogörüntüle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kargotakipDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kargotakipDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kargotakipDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kargotakipDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kargotakipDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kargotakipDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kargotakipDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kargotakipDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="loginpaneli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginpaneli.Designer.cs">
+      <DependentUpon>loginpaneli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="randevuformu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="randevuformu.Designer.cs">
+      <DependentUpon>randevuformu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="randevugörüntüle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="randevugörüntüle.Designer.cs">
+      <DependentUpon>randevugörüntüle.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ANASAYFA.resx">
+      <DependentUpon>ANASAYFA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kargoekle.resx">
+      <DependentUpon>kargoekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kargogörüntüle.resx">
+      <DependentUpon>kargogörüntüle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginpaneli.resx">
+      <DependentUpon>loginpaneli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="randevuformu.resx">
+      <DependentUpon>randevuformu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="randevugörüntüle.resx">
+      <DependentUpon>randevugörüntüle.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="kargotakipDataSet.xsc">
+      <DependentUpon>kargotakipDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="kargotakipDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kargotakipDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kargotakipDataSet.xss">
+      <DependentUpon>kargotakipDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="kargotakipDataSet1.xsc">
+      <DependentUpon>kargotakipDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="kargotakipDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kargotakipDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kargotakipDataSet1.xss">
+      <DependentUpon>kargotakipDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="kargotakipDataSet2.xsc">
+      <DependentUpon>kargotakipDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="kargotakipDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kargotakipDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kargotakipDataSet2.xss">
+      <DependentUpon>kargotakipDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="kargotakipDataSet3.xsc">
+      <DependentUpon>kargotakipDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="kargotakipDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kargotakipDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kargotakipDataSet3.xss">
+      <DependentUpon>kargotakipDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indir %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Truck Weight Max Loading.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\View.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reservation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money Bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eye1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

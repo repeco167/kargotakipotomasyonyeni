@@ -1,0 +1,15 @@
+C:\Users\ozgrs\source\repos\KargoTakipOtomasonu2\KargoTakipOtomasonu2\bin\Debug\KargoTakipOtomasonu2.exe.config
+C:\Users\ozgrs\source\repos\KargoTakipOtomasonu2\KargoTakipOtomasonu2\bin\Debug\KargoTakipOtomasonu2.exe
+C:\Users\ozgrs\source\repos\KargoTakipOtomasonu2\KargoTakipOtomasonu2\bin\Debug\KargoTakipOtomasonu2.pdb
+C:\Users\ozgrs\source\repos\KargoTakipOtomasonu2\KargoTakipOtomasonu2\obj\Debug\KargoTakipOtomasonu2.csproj.AssemblyReference.cache
+C:\Users\ozgrs\source\repos\KargoTakipOtomasonu2\KargoTakipOtomasonu2\obj\Debug\KargoTakipOtomasonu2.loginpaneli.resources
+C:\Users\ozgrs\source\repos\KargoTakipOtomasonu2\KargoTakipOtomasonu2\obj\Debug\KargoTakipOtomasonu2.Properties.Resources.resources
+C:\Users\ozgrs\source\repos\KargoTakipOtomasonu2\KargoTakipOtomasonu2\obj\Debug\KargoTakipOtomasonu2.csproj.GenerateResource.cache
+C:\Users\ozgrs\source\repos\KargoTakipOtomasonu2\KargoTakipOtomasonu2\obj\Debug\KargoTakipOtomasonu2.csproj.CoreCompileInputs.cache
+C:\Users\ozgrs\source\repos\KargoTakipOtomasonu2\KargoTakipOtomasonu2\obj\Debug\KargoTakipOtomasonu2.exe
+C:\Users\ozgrs\source\repos\KargoTakipOtomasonu2\KargoTakipOtomasonu2\obj\Debug\KargoTakipOtomasonu2.pdb
+C:\Users\ozgrs\source\repos\KargoTakipOtomasonu2\KargoTakipOtomasonu2\obj\Debug\KargoTakipOtomasonu2.ANASAYFA.resources
+C:\Users\ozgrs\source\repos\KargoTakipOtomasonu2\KargoTakipOtomasonu2\obj\Debug\KargoTakipOtomasonu2.kargoekle.resources
+C:\Users\ozgrs\source\repos\KargoTakipOtomasonu2\KargoTakipOtomasonu2\obj\Debug\KargoTakipOtomasonu2.kargogörüntüle.resources
+C:\Users\ozgrs\source\repos\KargoTakipOtomasonu2\KargoTakipOtomasonu2\obj\Debug\KargoTakipOtomasonu2.randevuformu.resources
+C:\Users\ozgrs\source\repos\KargoTakipOtomasonu2\KargoTakipOtomasonu2\obj\Debug\KargoTakipOtomasonu2.randevugörüntüle.resources
